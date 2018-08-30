@@ -77,6 +77,10 @@ a:focus {
 	background-color: inherit;
 }
 
+span.line {
+  white-space: nowrap;
+}
+
 p {
 	color: var(--main-text-color);
 	font-size: 100%;
