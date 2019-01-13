@@ -1,9 +1,9 @@
 @font-face {
-	font-family: 'pelilliansymbol';
-	src: url('fonts/pelilliansymbol.eot');
-	src: url('fonts/pelilliansymbol.eot?#iefix') format('embedded-opentype'),
-		url('fonts/pelilliansymbol.ttf') format('truetype'),
-		url('fonts/pelilliansymbol.woff') format('woff');
+	font-family: 'peterlilliansymbol';
+	src: url('fonts/peterlilliansymbol.eot');
+	src: url('fonts/peterlilliansymbol.eot?#iefix') format('embedded-opentype'),
+		url('fonts/peterlilliansymbol.ttf') format('truetype'),
+		url('fonts/peterlilliansymbol.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
