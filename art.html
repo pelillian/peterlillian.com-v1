@@ -13,7 +13,7 @@
 		</a>
 		{% assign sorted = site.art | sort: 'date' | reverse %}
 		{% for art in sorted %}
-			<a class="bigbox" href="{{ art.dir }}" data-target="5" data-current="3">
+			<a class="bigbox" href="{{ art.url }}" data-target="5" data-current="3">
 				<div class="padding">
 					<img class="link_img" src="{{ art.image }}">
 					<br><br>
