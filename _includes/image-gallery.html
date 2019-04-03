@@ -13,11 +13,11 @@
 						Swipe to view images...
 					</div>
 				</div>
-				{% strip %}{% for image in site.static_files %}
+				{% for image in site.static_files %}
 					{% if image.path contains include.dir %}
 						{% include swiper-slide.html src=image.path %}
 					{% endif %}
-				{% endfor %}{% endstrip %}
+				{% endfor %}
 			</div>
 			<!-- Add Pagination -->
 			<!--				<div class="swiper-pagination swiper-pagination-black"></div>-->
