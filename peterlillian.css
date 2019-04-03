@@ -24,7 +24,7 @@
 }
 
 #swap {
-	--highlight-top: #008EB0;
+	--highlight-top: #00b9e5;
 	--highlight-bot: #ED1C24;
 	background: var(--main-bg-color);
 	height: 100%;
