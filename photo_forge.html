@@ -21,9 +21,9 @@
 				</div>
 				{% for image in site.static_files %}
 				    {% if image.path contains 'images/photo/forge' %}
-				        {% include swiper-slide.html src=image.path %}
-				    {% endif %}
-				{% endfor %}
+				        {% include swiper-slide.html src=image.path | strip %}
+				    {% endif | strip %}
+				{% endfor | strip %}
 			</div>
 			<!-- Add Pagination -->
 			<!--				<div class="swiper-pagination swiper-pagination-black"></div>-->
