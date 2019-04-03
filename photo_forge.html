@@ -21,7 +21,7 @@
 				</div>
 				{% for image in site.static_files %}
 				    {% if image.path contains 'images/photo/forge' %}
-				        {% include swiper-slide.html src="{{ image.path }}" %}
+				        {% include swiper-slide.html src=image.path %}
 				    {% endif %}
 				{% endfor %}
 			</div>
