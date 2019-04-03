@@ -11,55 +11,15 @@
 				<span class="bigtext"><span class="symbol">0</span> BACK <span class="symbol">0</span></span>
 			</div>
 		</a>
-		<a class="bigbox" href="/art/space.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/photo/space/space_space1.jpg">
-				<br><br>
-				<span class="bigtext">THE INSIGNIFICANCE</span>
-			</div>
-		</a>
-		<a class="bigbox" href="/art/forge.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/photo/forge/forge02.jpg">
-				<br><br>
-				<span class="bigtext">TASK OF THE BLACKSMITH</span>
-			</div>
-		</a>
-		<a class="bigbox" href="/art/3D.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/photo/3D/3D_05.jpg">
-				<br><br>
-				<span class="bigtext">THREE DIMENSIONS</span>
-			</div>
-		</a>
-		<a class="bigbox" href="/art/design.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/design/1Spot%20Source-01.svg">
-				<br><br>
-				<span class="bigtext">DESIGN WORK</span>
-			</div>
-		</a>
-		<a class="bigbox" href="/art/people.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/photo/people/CopyrightPeterLillian_People%20(0).jpg">
-				<br><br>
-				<span class="bigtext">PEOPLE</span>
-			</div>
-		</a>
-		<a class="bigbox" href="/art/places.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/photo/places/CopyrightPeterLillian_Places%20(4).jpg">
-				<br><br>
-				<span class="bigtext">PLACES</span>
-			</div>
-		</a>
-		<a class="bigbox" href="/art/things.html" data-target="5" data-current="3">
-			<div class="padding">
-				<img class="link_img" src="/images/photo/things/CopyrightPeterLillian_Things%20(1).jpg">
-				<br><br>
-				<span class="bigtext">THINGS</span>
-			</div>
-		</a>
+		{% for art in site.art %}
+			<a class="bigbox" href="{{ art.dir }}" data-target="5" data-current="3">
+				<div class="padding">
+					<img class="link_img" src="{{ art.image }}">
+					<br><br>
+					<span class="bigtext">{{ art.title }}</span>
+				</div>
+			</a>	
+		{% endfor %}
 		<div class="bigbox">
 			<div class="padding">
 				<div class="bigtext symbol">A A A</div>
