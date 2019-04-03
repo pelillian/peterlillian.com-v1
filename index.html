@@ -1,56 +1,51 @@
 ---
 # index.html
 ---
-<!DOCTYPE html>
-<html>
 
 {% include head.html %}
 
-<body>
-	<div id="main" data-current="0">
-		<div id="swap" class="light" data-current="0">
-			<div class="center">
-				<img class="link_img" src="images/peter.jpg">
-			</div>
-			<div>
-				<div class="bigbox">
-					<div class="padding-top">
-						<span class="midsize">
-						My name is<br>
-						<span class = "bigtext">PETER<br>E.<br>LILLIAN</span>
-						</span>
-					</div>
-				</div>
-				<div class="bigbox">
-					<div class="padding-bot">
-						<p>I&#39;m a student of AI and student of art at the University of Southern California.</p>
-						<p>Food for thought: Future beings will appear as godlike to us as we do to ants. But unless they can find a way around the laws of physics, they'll have the same existential problems we do: entropy is always increasing.</p>
-					</div>
-				</div>
-			</div>
-			<a class="boxbox bigbox" href="resume.html" data-target="3" data-current="0">
-				<div class="padding">
-					<span class="bigtext">R&EacuteSUM&Eacute</span>
-				</div>
-			</a>
-			<a class="boxbox bigbox" href="art.html" data-target="3" data-current="0">
-				<div class="padding">
-					<span class="bigtext">ART &amp; DESIGN</span>
-				</div>
-			</a>
-			<a class="boxbox bigbox" href="contact.html" data-target="3" data-current="0">
-				<div class="padding">
-					<span class="bigtext">CONTACT PETER</span>
-				</div>
-			</a>
+<div id="main" data-current="0">
+	<div id="swap" class="light" data-current="0">
+		<div class="center">
+			<img class="link_img" src="images/peter.jpg">
+		</div>
+		<div>
 			<div class="bigbox">
-				<div class="padding">
-					<div class="bigtext symbol">A A A</div>
+				<div class="padding-top">
+					<span class="midsize">
+					My name is<br>
+					<span class = "bigtext">PETER<br>E.<br>LILLIAN</span>
+					</span>
+				</div>
+			</div>
+			<div class="bigbox">
+				<div class="padding-bot">
+					<p>I&#39;m a student of AI and student of art at the University of Southern California.</p>
+					<p>Food for thought: Future beings will appear as godlike to us as we do to ants. But unless they can find a way around the laws of physics, they'll have the same existential problems we do: entropy is always increasing.</p>
 				</div>
 			</div>
 		</div>
+		<a class="boxbox bigbox" href="resume.html" data-target="3" data-current="0">
+			<div class="padding">
+				<span class="bigtext">R&EacuteSUM&Eacute</span>
+			</div>
+		</a>
+		<a class="boxbox bigbox" href="art.html" data-target="3" data-current="0">
+			<div class="padding">
+				<span class="bigtext">ART &amp; DESIGN</span>
+			</div>
+		</a>
+		<a class="boxbox bigbox" href="contact.html" data-target="3" data-current="0">
+			<div class="padding">
+				<span class="bigtext">CONTACT PETER</span>
+			</div>
+		</a>
+		<div class="bigbox">
+			<div class="padding">
+				<div class="bigtext symbol">A A A</div>
+			</div>
+		</div>
 	</div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
-</body>
+</div>
 
-</html>
+{% include foot.html %}
