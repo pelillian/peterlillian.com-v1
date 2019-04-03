@@ -54,7 +54,7 @@ a {
 
 .bold {
 	font-size: 300%;
-	font-weight: 700;
+	font-weight: 900;
 	line-height: 130%;
 	letter-spacing: 1vw;
 }
@@ -177,7 +177,7 @@ b {
 .bigbox .bigtext {
 	display: inline-block;
 	font-size: 300%;
-	font-weight: 700;
+	font-weight: 900;
 	color: var(--main-text-color);
 	letter-spacing: 2vw;
 	margin-left: 2vw;
@@ -197,7 +197,7 @@ b {
 .bigbox .midtext {
 	display: inline-block;
 	font-size: 250%;
-	font-weight: 700;
+	font-weight: 900;
 	color: var(--main-text-color);
 	letter-spacing: 1vw;
 	margin-left: 1vw;
