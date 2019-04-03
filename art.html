@@ -11,7 +11,8 @@
 				<span class="bigtext"><span class="symbol">0</span> BACK <span class="symbol">0</span></span>
 			</div>
 		</a>
-		{% for art in site.art %}
+		{% assign sorted = (site.art | sort: 'date') | reverse %}
+		{% for art in sorted %}
 			<a class="bigbox" href="{{ art.dir }}" data-target="5" data-current="3">
 				<div class="padding">
 					<img class="link_img" src="{{ art.image }}">
