@@ -9,6 +9,10 @@
 				<div class='swiper-slide'>
 					<div class='swiper-text'>
 						<span class="bold">{{ include.name }}</span>
+						{% if include.info %}
+							<br><br>
+							{{ include.info }}
+						{% endif %}
 						<br><br>
 						Swipe to view images...
 					</div>
