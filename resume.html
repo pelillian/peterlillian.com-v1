@@ -17,61 +17,16 @@
 				<p><b>p@pelillian.net</b></p>
 			</div>
 		</a>
+		<a class="bigbox" href="https://github.com/pelillian">Github</a>
 		<div class="bigbox">
 			<div class="padding">
-				<span class="midtext">EDUCATION</span>
-				<p><i>University of Southern California</i></p>
-				<p><b>Master's</b></p>
-				<p>Aug 2018–Present (graduation May 2020)</p>
-				<p>(Progressive Degree Program)</p>
-				<p>Major: Computer Science</p>
-				<p><b>Bachelor's</b></p>
-				<p>Aug 2015–Present (graduation May 2019)</p>
-				<p>Full-Tuition Trustee Merit Scholarship</p>
-				<p>Major: Computer Science and Computer Engineering &nbsp;&nbsp;&nbsp;&nbsp; Minor: Photography</p>
-				<p>3.7 GPA</p>
-				<p>On Executive Board as Project Coordinator at the USC Center for AI in Society CAIS++</p>
-			</div>
-		</div>
-		<div class="bigbox">
-			<div class="padding">
-				<span class="midtext">EXPERIENCE</span>
-				<div class="textblock">
-					<p><b>Internship:</b> <i>Robotic Embedded Systems Lab, USC</i> <span class="right">Aug 2018–Present</span></p>
-					<p>
-						Development in the cutting-edge of Reinforcement Learning. Currently working on the new release of the next-generation platform for RL research, Garage, aimed at making it much easier for RL researchers to quickly write, expand, and test new models.
-					</p>
-				</div>
-				<div class="textblock">
-					<p><b>Research:</b> <i>Lehrstuhl f&uuml;r Informationsmanagement <span class="line">im Maschinenbau</span> <span class="line">(Cybernetics Lab),</span> <span class="line">RWTH Aachen University, Germany</span></i> <span class="right">May 2018–Aug 2018</span></p>
-					<p>
-						Research in Reinforcement Learning applied to Robotics, as well as more general artificial intelligence research. Currently publishing a paper applying neuroscience methods to understand the Black Box problem and the internal organization of neural networks. Published my first paper.
-					</p>
-				</div>
-				<div class="textblock">
-					<p><b>Research:</b> <i>Kawasaki Disease Research Center, UCSD</i> <span class="right">Aug 2017–Aug 2018</span></p>
-					<p>
-						Research using the latest developments in Machine Learning (incl SVMs, Boosted Decision Trees, and Deep Neural Networks) to diagnose the rare childhood illness, Kawasaki Disease. Refining my models that already get higher accuracy than any other diagnosis method.
-					</p>
-				</div>
-				<div class="textblock">
-					<p><b>Internship:</b> <i>Breinify, Inc.</i> <span class="right">May–Aug 2017</span></p>
-					<p>
-						I implemented a system to retrieve aggregated data of specific individuals from graph databases. I then generated new insights based on this data with inference models, even creating a responsive web platform to visualize my work.
-					</p>
-				</div>
-				<div class="textblock">
-					<p><b>Research:</b> <i>USC Machine Learning Center</i> <span class="right">Aug 2016–May 2018</span></p>
-					<p>
-						Research into the latest machine learning algorithms to solve challenging problems, especially in computational biology and health care. Worked on improving models that diagnose diseases from symptom information. Also created models to analyze changes in biological neurons while the brain is learning.
-					</p>
-				</div>
-				<div class="textblock">
-					<p><b>Internship:</b> <i>BioBlocks, Inc.</i> <span class="right">May–Aug 2016</span></p>
-					<p>
-						I improved the speed/reliability of the BioBlocks database, adding new features—including a system writing procedures in English for Hungarian chemists & a system automating chemical supply/shipping logistics.
-					</p>
-				</div>
+				<span class="midtext">PROJECTS &amp; EXPERIENCE</span>
+				{%- for item in site.data.resume_experience -%}
+					<div class="textblock">
+						<p><b>{{item.org}}</b>, <i>{{item.where}}</i> <span class="right">{{item.when}}</span></p>
+						<p>{{item.info}}</p>
+					</div>
+				{%- endfor -%}
 			</div>
 		</div>
 		<div class="bigbox">
@@ -87,17 +42,30 @@
 		</div>
 		<div class="bigbox">
 			<div class="padding">
-				<span class="midtext">SKILLS</span>
+				<span class="midtext">EDUCATION</span>
+				<p><i>University of Southern California</i></p>
+				<p><b>Master's</b> in Computer Science</p>
+				<p><i>In Progress</i> (graduation May 2020)</p>
+				<p><b>Bachelor's</b> in Computer Engineering and Computer Science</p>
+				<p>2015–2019</p>
+				<p>Full-Tuition Trustee Merit Scholarship</p>
+				<p>Minor: Photography</p>
+				<p>GPA: 3.7</p>
+			</div>
+		</div>
+		<div class="bigbox">
+			<div class="padding">
+				<span class="midtext">ACHIEVEMENTS &amp; SKILLS</span>
 				<div class="textblock">
-					<p><b>Development:</b> Python(incl numpy/sklearn/matplotlib), Keras, Tensorflow, Java, C++, HTML, CSS, Javascript, SQL, PipelinePilot, Apache Tomcat/Java EE Webserver</p>
-					<p><b>Programs:</b> Adobe Photoshop, Illustrator, AfterEffects, Premiere</p>
+					<p><b>Development:</b> Python (numpy/sklearn/matplotlib/pandas), Tensorflow, Java, C++, HTML/CSS/JS, nginx, Ubuntu servers, SQL</p>
+					<p><b>Programs:</b> Adobe Photoshop, Illustrator, AfterEffects, Premiere, Cinema 4D</p>
 				</div>
 			</div>
 		</div>
 		<div class="bigbox">
 			<div class="padding">
 				<span class="midtext">INTERESTS</span>
-				<p>Artificial Intelligence, Photography, Graphic Design/Typography/Drawing, Backpacking/Camping, Sailing, Skiing</p>
+				<p>Artificial Intelligence, Photography,  Backpacking, Medieval Scandinavian Art, Sailing, Skiing</p>
 			</div>
 		</div>
 		<a class="bigbox" href="index.html" data-target="0" data-current="3">

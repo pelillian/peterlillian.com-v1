@@ -1,0 +1,41 @@
+- org: >
+    Robotic Embedded Systems Lab, FPGA Lab, CAIS++
+  where: >
+    USC Viterbi
+  when: >
+    Aug 2019–Present
+  info: >
+    Research into the use of FPGAs as universal function approximators, using evolutionary algorithms on the bitstreams. The eventual goal is to evolve networks that solve machine learning problems much faster than neural networks: especially those from reinforcement learning or robotic control.
+- org: >
+    Robotic Embedded Systems Lab
+  where: >
+    USC Viterbi
+  when: >
+    Oct 2018–Present
+  info: >
+    Research in reinforcement learning for multi-task learning and topological exploration, as well as the use of neuroevolution algorithms as an alternative to gradient descent for training neural networks. Worked on Garage, a popular reinforcement learning package.
+- org: >
+    Cybernetics Lab
+  where: >
+    RWTH Aachen University (Germany)
+  when: >
+    May–Aug 2018
+  info: >
+    Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first paper.
+- org: >
+    Kawasaki Disease Research Center
+  where: >
+    UCSD, CAIS++
+  when: >
+    Aug 2017–Aug 2018
+  info: >
+    Machine learning research to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous methods.
+- org: >
+    Machine Learning Center
+  where: >
+    USC Viterbi
+  when: >
+    Aug 2016–May 2018
+  info: >
+    Research using neural networks for general patient diagnosis as well as the creation of models to analyze zebrafish neuron plasticity after habituation.
+
