@@ -1,0 +1,3 @@
+make site:
+	jekyll build
+
