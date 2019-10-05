@@ -8,6 +8,10 @@
 	overflow-x: hidden;
 }
 
+html {
+	color: var(--main-text-color);
+}
+
 :root {
 	--main-bg-color: #fcf8e6;
 	background: var(--main-bg-color);
@@ -79,11 +83,6 @@ a:focus {
 
 span.line {
   white-space: nowrap;
-}
-
-p {
-	color: var(--main-text-color);
-	font-size: 100%;
 }
 
 .midsize {
@@ -257,6 +256,7 @@ b {
 
 .textblock {
 	text-align: left;
+	color: var(--main-text-color);
 }
 
 .right {
