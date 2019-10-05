@@ -23,13 +23,21 @@
   info: >
     Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first paper.
 - org: >
-    Kawasaki Disease Research Center
+    Kawasaki Disease Research Center, CAIS++
   where: >
-    UCSD, CAIS++
+    UCSD
   when: >
     Aug 2017–Aug 2018
   info: >
     Machine learning research to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous methods.
+- org: >
+    Breinify, Inc.
+  where: >
+    San Francisco
+  when: >
+    May 2017–Aug 2017
+  info: >
+    I implemented a system to retrieve aggregated data from a graph database. Used ML models for imputation and inferencing, even creating a responsive web platform to visualize my work.
 - org: >
     Machine Learning Center
   where: >
