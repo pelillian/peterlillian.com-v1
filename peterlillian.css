@@ -8,10 +8,6 @@
 	overflow-x: hidden;
 }
 
-html {
-	color: var(--main-text-color);
-}
-
 :root {
 	--main-bg-color: #fcf8e6;
 	background: var(--main-bg-color);
@@ -32,6 +28,7 @@ html {
 	--highlight-bot: #ED1C24;
 	background: var(--main-bg-color);
 	height: 100%;
+	color: var(--main-text-color);
 }
 
 html,
@@ -56,7 +53,7 @@ a {
 	/*	font-size: 150%;*/
 }
 
-.bold {
+.bigtext-left {
 	font-size: 300%;
 	font-weight: 900;
 	line-height: 130%;
@@ -79,10 +76,6 @@ a:active {
 
 a:focus {
 	background-color: inherit;
-}
-
-span.line {
-  white-space: nowrap;
 }
 
 .midsize {
