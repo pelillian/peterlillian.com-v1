@@ -48,7 +48,7 @@ a {
 	-o-transition: color 0.3s;
 	transition: color 0.3s;
 	font-weight: 400;
-	color: var(--highlight-top);
+	color: var(--highlight-bot);
 	/*	font-size: 150%;*/
 }
 
@@ -66,7 +66,7 @@ a {
 }
 
 a:hover {
-	color: var(--highlight-bot);
+	color: var(--highlight-top);
 }
 
 a:active {
