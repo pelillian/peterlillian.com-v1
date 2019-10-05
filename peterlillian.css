@@ -233,7 +233,7 @@ b {
 	overflow-x: visible;
 }
 
-.boxbox.bigbox:not(:focus):hover {
+.link-box.bigbox:not(:focus):hover {
 	-webkit-box-shadow: inset 0px -200px 0px -180px var(--main-text-color), inset 0px 200px 0px -180px var(--main-text-color);
 	-moz-box-shadow: inset 0px -200px 0px -180px var(--main-text-color), inset 0px 200px 0px -180px var(--main-text-color);
 	box-shadow: inset 0px -200px 0px -180px var(--main-text-color), inset 0px 200px 0px -180px var(--main-text-color);
