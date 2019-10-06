@@ -1,6 +1,14 @@
 (function ($) {
 	'use strict';
 	$(document).ready(function () {
+		var loading = $('.gallery-loading');
+		if ( loading.length && (! $('#main-swiper').hasClass("loaded")) ) {
+			console.log('main-swiper');
+			loading.html('<div class="la-line-scale la-dark"><div></div><div></div><div></div><div></div><div></div></div>');
+		} else {
+			loading.html('Swipe to view images...');
+		}
+
 		var $main = $('#main'),
 			transition = 'fade',
 			smoothState;
@@ -61,7 +69,6 @@
 }(jQuery));
 
 window.onload = function () {
-	//	var folder = $(".swiper-container").data('folder');
 	if ($('.swiper-container').length > 0) {
 		var swiper = new Swiper('.swiper-container', {
 			zoom: true,
@@ -72,23 +79,11 @@ window.onload = function () {
 		});
 		$(".swiper-container").append("<style>* {overflow-x: visible;}</style>");
 	}
-	//	
-	//	// I think that this ajax code adds about one second to page load time. FIX IT
-	//	$.ajax({
-	//		url: folder,
-	//		success: function (data) {
-	//			$(data).find("a").attr("href", function (i, val) {
-	//				if (val.match(/\.(jpe?g|png|gif|svg)$/)) {
-	////					swiper.appendSlide(folder + val);
-	//					swiper.appendSlide("<div class='swiper-slide'><div class='swiper-zoom-container'><img class='big-img' src='" + folder + val + "'></div></div>");
-	//				}
-	//			});
-	//		}
-	//	});
-	//	
-	//	$(".swiper-container").append("<style>* {overflow-x: visible;}</style>");
-	//	// call update in the loop? would this be faster idk
-	//	swiper.update();
-	//	
-	//	swiper.slideTo(1, 0, false);
+	var loading = $('.gallery-loading');
+	loading.fadeOut(function(){
+		loading.html('Swipe to view images...');
+		$('#main-swiper').addClass('loaded');
+		loading.fadeIn();
+	});
 };
+
