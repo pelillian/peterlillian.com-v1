@@ -5,7 +5,8 @@
   when: >
     Aug 2019–Present
   info: >
-    Research into the use of FPGAs as universal function approximators, using evolutionary algorithms on the bitstreams. The eventual goal is to evolve networks that solve machine learning problems much faster than neural networks: especially those from reinforcement learning or robotic control.
+    Research into the use of FPGAs as universal function approximators, using evolutionary algorithms on the bitstreams. The eventual goal is to evolve networks that solve machine learning problems much faster than neural networks: especially those from reinforcement learning or robotic control. <a href='https://github.com/pelillian/varro'>GitHub</a><br><br>
+    I lead a team of 5 and am advised jointly by <a href='https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=en'>Gaurav Sukhatme</a> and <a href='https://scholar.google.com/citations?user=4FQXSP8AAAAJ&hl=en'>Viktor Prasanna</a>.
 - org: >
     Robotic Embedded Systems Lab
   where: >
@@ -13,7 +14,7 @@
   when: >
     Oct 2018–Present
   info: >
-    Research in reinforcement learning for multi-task learning and topological exploration, as well as the use of neuroevolution algorithms as an alternative to gradient descent for training neural networks. Worked on Garage, a popular reinforcement learning package.
+      Research in reinforcement learning for multi-task learning and topological exploration, as well as the use of neuroevolution algorithms as an alternative to gradient descent for training neural networks. Worked on <a href='https://github.com/rlworkgroup/garage'>Garage</a>, a popular reinforcement learning package.
 - org: >
     Cybernetics Lab
   where: >
@@ -21,7 +22,7 @@
   when: >
     May–Aug 2018
   info: >
-    Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first paper.
+      Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first <a href='https://arxiv.org/abs/1812.05687'>paper</a>.
 - org: >
     Kawasaki Disease Research Center, CAIS++
   where: >
@@ -29,7 +30,7 @@
   when: >
     Aug 2017–Aug 2018
   info: >
-    Machine learning research to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous methods.
+    Machine learning research to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous state-of-the-art methods. <a href='https://github.com/pelillian/machine-learning-kd-diagnosis'>GitHub</a>
 - org: >
     Breinify, Inc.
   where: >
