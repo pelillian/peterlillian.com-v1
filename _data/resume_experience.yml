@@ -30,7 +30,7 @@
   when: >
     Aug 2017–Aug 2018
   info: >
-    Machine learning research to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous state-of-the-art methods. <a href='https://github.com/pelillian/machine-learning-kd-diagnosis'>GitHub</a>
+    Research using the latest developments in machine learning (incl. SVMs, boosted decision trees, and deep neural networks) to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous state-of-the-art methods. <a href='https://github.com/pelillian/machine-learning-kd-diagnosis'>GitHub</a>
 - org: >
     Breinify, Inc.
   where: >
