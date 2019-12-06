@@ -23,6 +23,11 @@
 	--main-text-color: #fcf8e6;
 }
 
+.verydark {
+	--main-bg-color: #000;
+	--main-text-color: #fff;
+}
+
 #swap {
 	--highlight-top: #00b9e5;
 	--highlight-bot: #ED1C24;
@@ -193,6 +198,14 @@ b {
 	color: var(--main-text-color);
 	letter-spacing: 1vw;
 	margin-left: 1vw;
+	text-shadow: none;
+}
+.bigbox .closemidtext {
+    text-align: left;
+	display: inline-block;
+	font-size: 250%;
+	font-weight: 900;
+	color: var(--main-text-color);
 	text-shadow: none;
 }
 
