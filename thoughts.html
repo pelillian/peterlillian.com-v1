@@ -1,5 +1,5 @@
 ---
-# art.html
+# thoughts.html
 ---
 
 {% include head.html %}
@@ -11,16 +11,21 @@
 				<span class="bigtext"><span class="symbol">0</span> BACK <span class="symbol">0</span></span>
 			</div>
 		</a>
-		{% assign sorted = site.art | sort: 'date' | reverse %}
-		{% for art in sorted %}
-        <a class="bigbox" href="{{ art.url }}" data-target="5" data-current="3">
-            <div class="padding">
-                <img class="link_img" src="{{ art.image }}">
-                <br><br>
-                <span class="bigtext">{{ art.title }}</span>
-            </div>
-        </a>	
-		{% endfor %}
+		<div class="bigbox">
+			<div class="padding">
+				<span class="bigtext">THOUGHTS</span>
+			</div>
+		</a>
+		<a class="bigbox" href="/docs/Automated_Authority__Ethics_.pdf">
+			<div class="padding">
+				<span class="midtext">AUTOMATED AUTHORITY</span>
+				<div class="textblock">
+					<p>
+						What will the future of government look like as AI becomes more powerful?
+					</p>
+				</div>
+			</div>
+		</a>
 		<a class="bigbox" href="index.html" data-target="0" data-current="3">
 			<div class="padding">
 				<span class="bigtext"><span class="symbol">0</span> BACK <span class="symbol">0</span></span>
