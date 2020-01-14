@@ -172,9 +172,10 @@ b {
 }
 
 .bigbox .bigtext {
-	display: inline-block;
 	font-size: 300%;
 	font-weight: 900;
+    display: flex;
+    justify-content: center;
 	color: var(--main-text-color);
 	letter-spacing: 2vw;
 	margin-left: 2vw;
