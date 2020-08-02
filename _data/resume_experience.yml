@@ -13,7 +13,7 @@
   when: >
     Aug 2019–May 2020
   info: >
-      Research into the use of FPGAs as universal function approximators using evolutionary algorithms. The eventual goal: evolve architectures that solve ML problems much faster than neural networks. <a href='https://github.com/pelillian/varro'>GitHub</a><br><br>
+    Research into the use of FPGAs as universal function approximators using evolutionary algorithms. The eventual goal: evolve architectures that solve ML problems much faster than neural networks. <a href='https://github.com/pelillian/varro'>GitHub</a><br><br>
     Led a team of 5 and was advised jointly by <a href='https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=en'>Gaurav Sukhatme</a> and <a href='https://scholar.google.com/citations?user=4FQXSP8AAAAJ&hl=en'>Viktor Prasanna</a>.
 - org: >
     Robotic Embedded Systems Lab
@@ -22,7 +22,7 @@
   when: >
     Oct 2018–Jan 2020
   info: >
-      Research in reinforcement learning for multi-task learning and topological exploration, as well as the use of neuroevolution algorithms as an alternative to gradient descent for training neural networks. Worked on <a href='https://github.com/rlworkgroup/garage'>Garage</a>, a popular reinforcement learning package.
+    Research in reinforcement learning for multi-task learning and topological exploration, as well as the use of neuroevolution algorithms as an alternative to gradient descent for training neural networks. Worked on <a href='https://github.com/rlworkgroup/garage'>Garage</a>, a popular reinforcement learning package.
 - org: >
     Cybernetics Lab
   where: >
@@ -30,7 +30,7 @@
   when: >
     May–Aug 2018
   info: >
-      Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first <a href='https://arxiv.org/abs/1812.05687'>paper</a>.
+    Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first <a href='https://arxiv.org/abs/1812.05687'>paper</a>.
 - org: >
     Kawasaki Disease Research Center, CAIS++
   where: >
