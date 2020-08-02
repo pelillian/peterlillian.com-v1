@@ -6,7 +6,7 @@
     Aug 2019–Present
   info: >
     Research into the use of FPGAs as universal function approximators, using evolutionary algorithms on the bitstreams. The eventual goal is to evolve networks that solve machine learning problems much faster than neural networks: especially those from reinforcement learning or robotic control. <a href='https://github.com/pelillian/varro'>GitHub</a><br><br>
-    I lead a team of 5 and am advised jointly by <a href='https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=en'>Gaurav Sukhatme</a> and <a href='https://scholar.google.com/citations?user=4FQXSP8AAAAJ&hl=en'>Viktor Prasanna</a>.
+    Led a team of 5.
 - org: >
     Robotic Embedded Systems Lab
   where: >
