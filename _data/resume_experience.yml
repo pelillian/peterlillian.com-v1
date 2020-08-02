@@ -5,8 +5,8 @@
   when: >
     Aug 2019–Present
   info: >
-    Research into the use of FPGAs as universal function approximators, using evolutionary algorithms on the bitstreams. The eventual goal is to evolve networks that solve machine learning problems much faster than neural networks: especially those from reinforcement learning or robotic control. <a href='https://github.com/pelillian/varro'>GitHub</a><br><br>
-    Led a team of 5.
+      Research into the use of FPGAs as universal function approximators using evolutionary algorithms. The eventual goal: evolve architectures that solve ML problems much faster than neural networks. <a href='https://github.com/pelillian/varro'>GitHub</a><br><br>
+    Led a team of 5 and was advised jointly by <a href='https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=en'>Gaurav Sukhatme</a> and <a href='https://scholar.google.com/citations?user=4FQXSP8AAAAJ&hl=en'>Viktor Prasanna</a>.
 - org: >
     Robotic Embedded Systems Lab
   where: >
@@ -30,7 +30,7 @@
   when: >
     Aug 2017–Aug 2018
   info: >
-    Research using the latest developments in machine learning (incl. SVMs, boosted decision trees, and deep neural networks) to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous state-of-the-art methods. <a href='https://github.com/pelillian/machine-learning-kd-diagnosis'>GitHub</a>
+    Research using machine learning (incl. SVMs, boosted decision trees, and deep neural networks) to diagnose the rare childhood illness, Kawasaki Disease. Refining ensemble models that outperform previous state-of-the-art methods. <a href='https://github.com/pelillian/machine-learning-kd-diagnosis'>GitHub</a>
 - org: >
     Breinify, Inc.
   where: >
