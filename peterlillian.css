@@ -62,7 +62,7 @@ a {
 	font-size: 300%;
 	font-weight: 900;
 	line-height: 130%;
-	letter-spacing: 1vw;
+	letter-spacing: 0.1em;
 }
 
 .center {
@@ -93,7 +93,9 @@ b {
 
 .symbol {
 	font-family: 'peterlilliansymbol';
-	word-spacing: -0.5em;
+	word-spacing: -0.4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .swiper-container {
@@ -158,8 +160,7 @@ b {
 }
 
 .bigbox .midsize .bigtext {
-	letter-spacing: 3vw;
-	margin-left: 3vw;
+	letter-spacing: 0.3em;
 }
 
 .exit {
@@ -177,8 +178,7 @@ b {
     display: flex;
     justify-content: center;
 	color: var(--main-text-color);
-	letter-spacing: 2vw;
-	margin-left: 2vw;
+	letter-spacing: 0.2em;
 	text-shadow: none;
 	-webkit-transition: text-shadow 0.3s;
 	-moz-transition: text-shadow 0.3s;
@@ -197,8 +197,7 @@ b {
 	font-size: 250%;
 	font-weight: 900;
 	color: var(--main-text-color);
-	letter-spacing: 1vw;
-	margin-left: 1vw;
+	letter-spacing: 0.1em;
 	text-shadow: none;
 }
 .bigbox .closemidtext {
