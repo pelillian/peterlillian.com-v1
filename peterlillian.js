@@ -13,7 +13,7 @@
 			transition = 'fade',
 			smoothState;
 
-		// this code fixes the back and forward buttons upon refresh
+		// this code fixes the back and forward buttons upon refresh (no previous transition is logged)
 		var current = $('#swap').data('current');
 		if (current === 0) {
 			transition = 'moveright';
@@ -51,6 +51,17 @@
 					} else {
 						$container.html($newContent);
 						$container.removeClass('is-exiting');
+
+                        /* 
+                         * This hack is for the bug in safari where the user can't scroll down.
+                         * For some reason we have to slightly change an object's size in order
+                         * for the browser to update and realize we can scroll. I'm pretty sure
+                         * this is a bug in the old version of smoothState I'm using.
+                         */
+                        setTimeout(function(){
+                            $('.symbol').css('margin-left', 0.0001);
+                            $('.symbol').css('margin-right', 0.0001);
+                        }, 200);
 
 						// this code fixes the back and forward buttons
 
