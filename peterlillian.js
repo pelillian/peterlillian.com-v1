@@ -1,3 +1,7 @@
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
 (function ($) {
 	'use strict';
 	$(document).ready(function () {
@@ -20,62 +24,64 @@
 		} else {
 			transition = 'moveleft';
 		}
-		smoothState = $main.smoothState({
-			onBefore: function ($anchor, $container) {
-				var current = $anchor.data('current'),
-					target = $anchor.data('target');
-				if (current === target) {
-					transition = 'fade';
-				} else if (current < target) {
-					transition = 'moveright';
-				} else {
-					transition = 'moveleft';
-				}
-				// back and forward buttons don't trigger onBefore
-			},
-			onStart: {
-				duration: 500,
-				render: function (url, $container) {
-					$main.attr('data-transition', transition);
-					//					$main.append(transition);
-					$main.addClass('is-exiting');
-				}
-			},
-			onReady: {
-				duration: 0,
-				render: function ($container, $newContent) {
-					var current = $('#swap').data('current');
-					var target = $newContent.data('current');
-					if (target === 5) {
-						location.reload(true);
-					} else {
-						$container.html($newContent);
-						$container.removeClass('is-exiting');
+        if (!isMobile()) {
+            smoothState = $main.smoothState({
+                onBefore: function ($anchor, $container) {
+                    var current = $anchor.data('current'),
+                        target = $anchor.data('target');
+                    if (current === target) {
+                        transition = 'fade';
+                    } else if (current < target) {
+                        transition = 'moveright';
+                    } else {
+                        transition = 'moveleft';
+                    }
+                    // back and forward buttons don't trigger onBefore
+                },
+                onStart: {
+                    duration: 500,
+                    render: function (url, $container) {
+                        $main.attr('data-transition', transition);
+                        //					$main.append(transition);
+                        $main.addClass('is-exiting');
+                    }
+                },
+                onReady: {
+                    duration: 0,
+                    render: function ($container, $newContent) {
+                        var current = $('#swap').data('current');
+                        var target = $newContent.data('current');
+                        if (target === 5) {
+                            location.reload(true);
+                        } else {
+                            $container.html($newContent);
+                            $container.removeClass('is-exiting');
 
-                        /* 
-                         * This hack is for the bug in safari where the user can't scroll down.
-                         * For some reason we have to slightly change an object's size in order
-                         * for the browser to update and realize we can scroll. I'm pretty sure
-                         * this is a bug in the old version of smoothState I'm using.
-                         */
-                        setTimeout(function(){
-                            $('.symbol').css('margin-left', 0.0001);
-                            $('.symbol').css('margin-right', 0.0001);
-                        }, 200);
+                            /* 
+                             * This hack is for the bug in safari where the user can't scroll down.
+                             * For some reason we have to slightly change an object's size in order
+                             * for the browser to update and realize we can scroll. I'm pretty sure
+                             * this is a bug in the old version of smoothState I'm using.
+                             */
+                            setTimeout(function(){
+                                $('.symbol').css('margin-left', 0.0001);
+                                $('.symbol').css('margin-right', 0.0001);
+                            }, 200);
 
-						// this code fixes the back and forward buttons
+                            // this code fixes the back and forward buttons
 
-						if (current === target) {
-							transition = 'fade';
-						} else if (current > target) {
-							transition = 'moveright';
-						} else {
-							transition = 'moveleft';
-						}
-					}
-				}
-			}
-		}).data('smoothState');
+                            if (current === target) {
+                                transition = 'fade';
+                            } else if (current > target) {
+                                transition = 'moveright';
+                            } else {
+                                transition = 'moveleft';
+                            }
+                        }
+                    }
+                }
+            }).data('smoothState');
+        }
 	});
 }(jQuery));
 
