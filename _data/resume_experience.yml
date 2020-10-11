@@ -5,7 +5,7 @@
   when: >
     Jun 2020–Aug 2020
   info: >
-    Built a new ML system from unlabeled data to identify and categorize suspicious Apple Cash accounts. Included unsupervised analysis, data wrangling, label discovery, visualization, and plenty of collaboration. Culminated in a presentation on the concrete business applications of my work.
+    Built a new ML system from unlabeled data to categorize Apple Cash accounts for fraud analysis. Included unsupervised analysis, data wrangling, label discovery, visualization, and plenty of collaboration. Culminated in a presentation on the concrete business applications of my work.
 - org: >
     Robotic Embedded Systems Lab, FPGA Lab, CAIS++
   where: >
@@ -30,7 +30,7 @@
   when: >
     May–Aug 2018
   info: >
-    Research in reinforcement learning applied to robotics, as well as more general neural network research. Applied neuroscience methods to understand network organization. Published first <a href='https://arxiv.org/abs/1812.05687'>paper</a>.
+    Research in neural networks and reinforcement learning applied to robotics (using a UR5). Applied neuroscience methods to understand network organization. Published first <a href='https://arxiv.org/abs/1812.05687'>paper</a>.
 - org: >
     Kawasaki Disease Research Center, CAIS++
   where: >
@@ -46,7 +46,7 @@
   when: >
     May 2017–Aug 2017
   info: >
-    I implemented a system to retrieve aggregated data from a graph database. Used ML models for imputation and inferencing, even creating a responsive web platform to visualize my work.
+    Implemented an ML pipeline at scale, retrieving aggregated data from a graph database and sending inferences to a responsive web platform.
 - org: >
     Machine Learning Center
   where: >
